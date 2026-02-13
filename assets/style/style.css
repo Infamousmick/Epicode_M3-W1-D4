@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+nav {
+    width: 60%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    min-width: 470px;
+    padding: 5px 7px;
+    background-color: #FBF7E3;
+    border-radius: 22px;
+}
+
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    background-color: #F3DF85;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 0.6em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-basis: 6%
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #72331A;
+    white-space: nowrap;
+}
+
+nav ul li img {
+    width: 55%;
+}
+
+nav ul li:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    padding: 12px 25px;
+    gap: 30%;
+    flex-basis: 10%;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+h2, p, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #72331A;
+}
+
+.card {
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    padding: 18px;
+    gap: 40px;
+    align-items: center;
+    background-color: #FBF7E3;
+    border-radius: 40px;
+}
+
+.card .top {
+    width: 240px;
+    height: 240px;
+}
+
+.card .top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px 50px 0 0
+}
+
+.card .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card .bottom .info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card .bottom .info .description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.card .bottom .info .description h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.card .bottom .info p {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.card .bottom .info .price p {
+    font-weight: 500
+}
+
+.card .bottom .info .price {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.card .bottom .addCart {
+    display: flex;
+    justify-content: center;
+}
+
+.card .bottom .addCart button {
+    padding: 10px 40px;
+    background-color: #F3DF85;
+    border: none;
+    border-radius: 22px;
+    font-weight: 400;
+    font-size: 0.9em;
+}
